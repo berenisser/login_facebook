@@ -2,17 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>FAcebook Login</title>
+	<title>Facebook Login</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--typografia-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+	<!-- Esta parte vino del codigo de boton personalizado -->
 	<div id="fb-root"></div>
 
-	<!-- Codigo del Boton personalizado -->
+	<!-- Estos seran mi maquetación personal -->
+	<header class="container-fluid">
+		<div class="row color">
+			<div class="col-lg-12 col-md-12 text-center">
+				<h1>My App Page</h1>
+			</div>
+		</div>
+	</header>
+	
+	<!-- Codigo HTML del Boton personalizado -->
 	<div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="true" data-auto-logout-link="false" data-use-continue-as="true"></div>
 	<!-- FIN Codigo del Boton personalizado -->
 
 
-
+	<!-- Esta parte vino del codigo de boton personalizado -->
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;

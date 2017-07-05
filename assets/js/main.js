@@ -18,7 +18,14 @@
    }(document, 'script', 'facebook-jssdk'));
 
   //segundo set de codigo que viene directo de FB
-  
+
 FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
 });
+
+
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
